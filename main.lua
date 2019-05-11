@@ -62,7 +62,7 @@ pico8={
 	pal_transparent={},
 }
 
-require("strict")
+require("lib/strict")
 local bit=require("bit")
 
 local flr, abs=math.floor, math.abs
